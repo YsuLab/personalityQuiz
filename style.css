@@ -58,7 +58,7 @@ h1{
     align-items: center;
   position:relative;
   max-width:900px;
-  min-width:500px;
+  width: min(100% - 2rem, 900px);
   margin:0 auto;
   margin-top: 20px;
   padding:20px;
