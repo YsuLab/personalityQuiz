@@ -67,11 +67,7 @@ h1{
 }
 
 .container{
-  /* size of one “pixel” in the staircase */
-
-  /* clip‑path draws a little 4×4 staircase on every corner.
-     Coordinates use `calc()` so you can change --px once
-     and everything scales.                                   */
+                  
     clip-path: polygon(
     0px calc(100% - 48px),
     12px calc(100% - 48px),
