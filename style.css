@@ -362,3 +362,51 @@ button:active {
 button:active:after {
   box-shadow: 0 0px 0 0 rgb(0 0 0 / 15%);
 }
+
+/* Responsive styles for mobile devices */
+@media (max-width: 600px) {
+  body {
+    padding: 0;
+    font-size: 15px;
+  }
+  .container {
+    max-width: 98vw;
+    width: 98vw;
+    padding: 10px;
+    margin: 0;
+  }
+  .custom-radio-group {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .custom-radio-container {
+    padding: 10px 8px;
+    font-size: 15px;
+  }
+  .custom-radio-checkmark {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+  }
+  h1 {
+    font-size: 18px;
+    padding: 8px 0;
+  }
+  button,
+  .container button {
+    font-size: 15px;
+    padding: 0.6rem 1rem;
+    margin: 1rem auto 0;
+  }
+}
+
+/* Prevent horizontal scroll on small screens */
+body, html {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
