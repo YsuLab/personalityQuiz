@@ -366,7 +366,7 @@ button:active:after {
 @media (max-width: 600px){
   html{
     /* 0.8 = 80 % of original size.  Adjust to taste.  */
-    transform: scale(.75);
+    transform: scale(.85);
     transform-origin: top left;   /* anchor in the corner   */
 
     /* without this the body stays 360 px and you get a gap */
