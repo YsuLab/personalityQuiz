@@ -57,8 +57,8 @@ h1{
     flex-direction: column;
     align-items: center;
   position:relative;
-  max-width:900px;
-  width: min(100% - 2rem, 900px);
+  max-width: 600px;
+  width: min(100% - 3rem, 600px);
   margin:0 auto;
   margin-top: 20px;
   padding:20px;
