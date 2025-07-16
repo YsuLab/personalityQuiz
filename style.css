@@ -44,18 +44,17 @@ background: #121212; /* Fallback for browsers that don't support gradients
   }
 }
 h1{
-    text-align: center;
-    font-family: "Press Start 2P", sans-serif;
-    font-size: 25px;
-
+  text-align: center;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 25px;
 }
 
 .container{
 
     
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position:relative;
   max-width: 600px;
   width: min(100% - 3rem, 600px);
@@ -362,15 +361,16 @@ button:active {
 button:active:after {
   box-shadow: 0 0px 0 0 rgb(0 0 0 / 15%);
 }
+
 /* PHONE PORTRAIT ONLY (≤ 600 px) */
 @media (max-width: 600px){
   html{
-    /* 0.8 = 80 % of original size.  Adjust to taste.  */
+    /* Adjust to taste.  */
     transform: scale(.9);
     transform-origin: top left;   /* anchor in the corner   */
 
     /* without this the body stays 360 px and you get a gap */
-    width: 125%;                  /* 1 / .8  = 125 %       */
+    width: 125%;                 
   }
 
   /* optional: tighten big paddings once page is shrunk */
