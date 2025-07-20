@@ -379,13 +379,13 @@ button:active:after {
   html{
     /* Adjust to taste.  */
     transform: scale(.8);
-    /*transform-origin: top left;    anchor in the corner   */
+    transform-origin: top right;    /* anchor in the corner   */
 
     /* without this the body stays 360 px and you get a gap */
     width: 125%;                 
   }
 
-  /* optional: tighten big paddings once page is shrunk */
+  /* optional: tighten big paddings once page is shrunk 
   .container,
-  .custom-radio-group{ padding:1rem; }
+  .custom-radio-group{ padding:1rem; }*/
 }
