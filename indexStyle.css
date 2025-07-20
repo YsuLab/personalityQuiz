@@ -42,7 +42,7 @@ background: #121212; /* Fallback for browsers that don't support gradients
 }
 #title1 {
   font-family: 'PixelAE', sans-serif;
-  font-size: 32px;
+  font-size: 40px;
 }
 
 .quiz-icon {
@@ -399,7 +399,7 @@ button:active:after {
 
 #introText{
   text-align: justify;
-  font-size: 2rem;
+  font-size: 2rem; /* You could try 25px for a more consistent size */
   line-height: 1.5;
   
   margin-right: 1.5rem;
