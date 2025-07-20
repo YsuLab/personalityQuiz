@@ -378,7 +378,7 @@ button:active:after {
 @media (max-width: 600px){
   html{
     /* Adjust to taste.  */
-    transform: scale(.9);
+    transform: scale(.8);
     transform-origin: top left;   /* anchor in the corner   */
 
     /* without this the body stays 360 px and you get a gap */
